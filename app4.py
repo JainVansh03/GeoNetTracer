@@ -1,5 +1,5 @@
 class hello:
-    def  print_pattern(self,n):
+    def  printpattern(self,n):
      counter = 0
 
      for i in range(1,n+1):
@@ -16,4 +16,4 @@ class hello:
 '''print("Enter the number")'''
 n = int(input())
 a = hello()
-print(a.print_pattern(n))
+print(a.printpattern(n))
